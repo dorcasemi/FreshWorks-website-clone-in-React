@@ -1,0 +1,72 @@
+.pageTwoBody {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pTwoImgSection {
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+    background-color: white;
+  
+  }
+  .paraSec {
+    /* height: 140vh; */
+    margin-left: 29px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .pTwoPic {
+    height: 500px;
+    display: flex;
+  }
+  
+  .ptag1 {
+    font-size: 35px;
+    display: flex;
+    color: #0b1320;
+    margin: 10px 0;
+    margin-bottom: 16px;
+    font-family: 'Helvetica,sans-serif';
+    font-weight: 700;
+    font-style: normal;
+  }
+  .btnblock {
+    height: 318px;
+    display: flex;
+   
+  
+  }
+  .btngroup {
+    height: 70px;
+    width: 270px;
+    border-radius: 7px;
+    border: transparent;
+    font-family:  'Helvetica, sans-serif';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1rem;
+    line-height: 1.75;
+    background-color: #ffe2cc transparent;
+  }
+  .directionGroup {
+    flex-direction: row;
+  }
+  
+  .btnsect1 {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+  .btnsect2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+  

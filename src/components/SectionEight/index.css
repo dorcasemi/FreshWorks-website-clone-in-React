@@ -1,0 +1,220 @@
+.footerContact {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .Contacts {
+    display: flex;
+    margin-top: 50px;
+    width: 70%;
+    justify-content: center;
+  }
+  .contactNav {
+    list-style: square;
+    background-color: #fff;
+    color: #0b1320;
+    margin-right: 30px;
+    width: 15%;
+  }
+  .freshW {
+    width: 90px;
+    height: 20px;
+  }
+  
+  .Fresh {
+    display: flex;
+    align-items: flex-start;
+  }
+  .Fresh > p {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .freshNav {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+  }
+  .itemName {
+    font-size: 13px;
+  }
+  .Company {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+  .companyName {
+    font-size: 12px;
+  }
+  .companyNavs {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .Company > p {
+    font-weight: bold;
+  }
+  
+  .face {
+    background-image: url(../images/facebook-re.png);
+    width: 30px;
+    height: 30px;
+  }
+  .Overlay {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: url(../images/facebook.blue.png);
+  }
+  
+  .Icons:hover .Overlay {
+    opacity: 1;
+  }
+  .Icons {
+    position: relative;
+    width: 60%;
+  }
+  .Icons2 {
+    position: relative;
+    width: 60%;
+  }
+  .Icons2:hover .Overlay2 {
+    opacity: 1;
+  }
+  .Tweet {
+    background-image: url(../images/twit-r.png);
+    width: 30px;
+    height: 30px;
+  }
+  .Overlay2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: url(../images/twit.blue.jpg);
+  }
+  .Overlay3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: url(../images/youtube.red.png);
+  }
+  .Tube {
+    background-image: url(../images/youtube-r.png);
+    width: 30px;
+    height: 30px;
+  }
+  .Icons3 {
+    position: relative;
+    width: 50%;
+  }
+  .Icons3:hover .Overlay3 {
+    opacity: 1;
+  }
+  .Icons4 {
+    position: relative;
+    width: 50%;
+  }
+  .Icons4:hover .Overlay4 {
+    opacity: 1;
+  }
+  .Link {
+    background-image: url(../images/linkd-r.png);
+    width: 30px;
+    height: 30px;
+  }
+  .Overlay4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: url(../images/LinkedIn-logo.png);
+  }
+  .Overlay5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: url(../images/glass.green.png);
+  }
+  .Glass {
+    background-image: url(../images/glaszdo.png);
+    width: 30px;
+    height: 30px;
+  }
+  .Icons5:hover .Overlay5 {
+    opacity: 1;
+  }
+  .Icons5 {
+    position: relative;
+    width: 60%;
+    margin-left: -20px;
+  }
+  
+  .iconsContainer {
+    display: flex;
+    margin-top: 10px;
+  }
+  .iconsContainer2 {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+  }
+  
+  .mainIconContainer > p {
+    font-weight: bold;
+  }
+  
+  .msgContact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0b1320;
+    width: 150px;
+    padding: 10px;
+    margin-left: 85%;
+    border-radius: 5px;
+    position: sticky;
+  }
+  
+  .Msg {
+    width: 10px;
+    height: 10px;
+  }
+  .msgContact > p {
+    color: white;
+    padding-left: 3px;
+  }
+  .contactSales {
+    font-size: 12px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,51 @@
+.page5Body {
+    height: 68vh;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+  }
+  .sect5quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .waterstonImage {
+    height: 150px;
+    width: 160px;
+  }
+  .waterston {
+    font-size: 55px;
+    margin: 45px;
+  }
+  .sect5para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 1px;
+  }
+  
+  .ptag5 {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-style: italic;
+    color: #3b3f47;
+    font-family: 'neue-haas-grotesk-text, Helvetica, sans-serif';
+    font-weight: 400;
+    font-style: normal;
+  }
+  .headfive {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0b1320;
+    font-family: 'neue-haas-grotesk-display, Helvetica, sans-serif';
+    font-weight: 600;
+    font-style: normal;
+    margin: 10px;
+    margin-top: 25px;
+  }
+  

@@ -1,0 +1,99 @@
+.pageOneBody {
+    height: 100%;
+    width: 100%;
+    background-color: #c499df;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .femalePicture {
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+    padding-right: 40px;
+  }
+  
+  .pageOneHeader {
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 10px 0;
+    color: #0b1320;
+    word-spacing: 4;
+  }
+  
+  .pageOneParag {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #3b3f47;
+  }
+  .textPart {
+    margin-left: 240px;
+    margin-top: 100px;
+  }
+  
+  .btnSection {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .btn1 {
+    width: 181px;
+    padding: 13px;
+    border: 1px solid rgb(93, 53, 215);
+    background-color: rgb(93, 53, 215);
+    margin-right: 5px;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .btn2 {
+    padding: 13px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-left: 5px;
+    border-radius: 3px;
+    width: 181px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-style: normal;
+  }
+  .sBContainer {
+   display: flex;
+    align-items: flex-start;
+    position: sticky;
+    bottom: 45px;
+    z-index: 1;
+    margin-left: 10px;
+    height: 70%;
+    width: 300px;
+    background-color: aliceblue;
+  }
+  
+  .sideButton {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-self: flex-start;
+    position: fixed;
+    z-index:1;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    font-size: 15px;
+    height: 50px;
+    width: 170px;
+  }
+  

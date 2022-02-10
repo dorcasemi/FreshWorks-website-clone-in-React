@@ -1,0 +1,54 @@
+
+.page4Body {
+    height: 75vh;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .sect4para {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headfour {
+    font-size: 40px;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+  }
+  .ptag4 {
+    font-family: 'Calibri';
+    font-size: 19px;
+    text-align: center;
+  }
+  .icon4Sect {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .batch1 {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .batch2 {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .batch3 {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
